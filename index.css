@@ -15,7 +15,6 @@ body{
     background-position: center;
     width: 100vw;
     height: 13em;
-    border: 1px solid black;
     color: white;
 }
 h1{
@@ -23,6 +22,7 @@ h1{
     font-size: 2rem; 
 }
 .watchlist-link{
+    font-size: 1.05em;
     margin: auto 0;
     height: 1.375em;
     background: none;
@@ -54,8 +54,9 @@ a:link, a:visited,a:focus{
     font-family: inherit;
 }
 .decoration{
-    color: rgb(128, 193, 251);
-    text-shadow: 0 0 0.2px black;
+    font-size: 1.05em;
+    color: #0638A2;
+    text-shadow: 0 0 0.5px black;
     background:rgb(226, 237, 246);
     border-radius: 5px;
     border: 0.5px solid #D1D5DB;
@@ -66,7 +67,7 @@ a:link, a:visited,a:focus{
 }
 #movie-input::placeholder{
     text-align: center;
-    color: rgb(128, 193, 251);
+    color: #0638A2;
 }
 #my-search-btn{
     padding: 0.625em;
@@ -78,12 +79,13 @@ a:link, a:visited,a:focus{
 }
 
 .catalog-img{
+    align-self: center;
     width: 120px;
-    height: calc(120*99/147.41px);
-    border: solid 1px black;
+    height: 200px;
+    box-shadow: 1px 2px 5px black;
 }
 .catalog-list{
-    letter-spacing: 0.05em;
+    letter-spacing: 0.04em;
     line-height: 1.1em;
     position: relative;
     margin: 1.25em auto;
@@ -190,6 +192,9 @@ i.delete{
     background: #2D26A8;
     margin: 1em auto;
     display:block;
+}
+.retrived-movies{
+    padding: 0.5em;
 }
 @media(min-width: 450px){
     .header{
